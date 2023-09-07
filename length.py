@@ -1,19 +1,13 @@
 def number_length(num):
-    dlugosc = 0
-    for i in num:
-        dlugosc += 1
-                
-    print(dlugosc)
-
-while True:
-    try:
-        num = input("Podaj liczbę: ")
-            
+    try: 
         num = int(num)
         num = str(num)
-            
-        number_length(num)
-            
-        break
+        
+        dlugosc = 0
+        for i in num:
+            dlugosc += 1
+                
+        return dlugosc
+
     except:
-        print("Błąd")
+        return "Błąd"
