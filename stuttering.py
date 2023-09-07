@@ -9,6 +9,3 @@ def stutter(word):
         return word[:2]+"... "+word[:2]+"... "+word+"?"
     except:
         return "Błąd"
-        
-word = input("Podaj wyraz o dlugosci conajmniej 2 i taki ktory ma tylko małe litery: ")
-print(stutter(word))

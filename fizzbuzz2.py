@@ -7,7 +7,7 @@ def fizzbuzz(loop,indx=0):
         loop[indx] = "Buzz"
     
     indx = indx+1
-    if indx==99:
+    if indx==100:
         return loop
     else:
         return fizzbuzz(loop,indx)

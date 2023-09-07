@@ -15,22 +15,3 @@ def find_highest(list1):
         return list1[0]
     else:
         return find_highest(list1)
-    
-print("Podaj kolejno wartości listy, gdy skonczysz wpisz end: ")
-
-list1 = []
-while True:
-    num = input("Podaj liczbe: ")
-    
-    if num == "end":
-        break
-    else:
-        try:
-            test = int(num)
-            list1.append(num)
-        except:
-            print("Błąd podaj liczbe")
-            
-    
-print("Oto lista:",list1)
-print("Najwyższa wartość:",find_highest(list1))
