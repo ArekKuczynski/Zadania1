@@ -16,4 +16,3 @@ def fizzbuzz():
                 except:
                     list1.append("FizzBuzz")
     return list1
-print(fizzbuzz())

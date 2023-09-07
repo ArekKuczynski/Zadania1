@@ -11,4 +11,3 @@ def fizzbuzz(loop,indx=0):
         return loop
     else:
         return fizzbuzz(loop,indx)
-print(fizzbuzz([i for i in range(1,101)]))

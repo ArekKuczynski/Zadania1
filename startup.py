@@ -51,19 +51,17 @@ def start(x):
         print(stutter(word))
     
     elif x == "7":
-        from date import format_date
-        date_old = input("Podaj date w fomracie 'MM/DD/YYYY': ")
-        print(format_date(date_old))
+        from fizzbuzz1 import fizzbuzz
+        fizzbuzz()
     
-    elif x == "85":
-        from date import format_date
-        date_old = input("Podaj date w fomracie 'MM/DD/YYYY': ")
-        print(format_date(date_old))
+    elif x == "8":
+        from fizzbuzz2 import fizzbuzz
+        print(fizzbuzz([i for i in range(1,101)]))
     
     elif x == "9":
-        from date import format_date
-        date_old = input("Podaj date w fomracie 'MM/DD/YYYY': ")
-        print(format_date(date_old))
+        from fizzbuzz3 import fizzbuzz
+        print(fizzbuzz())
+        
 print("Który program?: ",end="\n\n")
 print("1. Length")
 print("2. Countries")
